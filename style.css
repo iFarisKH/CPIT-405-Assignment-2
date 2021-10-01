@@ -1,6 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
 }
 
 .topbanner {
@@ -14,4 +16,12 @@
 	display: block;
 	height: 100%;
 	width: 20%;
+}
+
+#heading {
+	font-size: 24pt;
+	font-weight: bold;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 3px 3px #999999;
 }
