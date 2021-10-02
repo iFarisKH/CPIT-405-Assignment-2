@@ -100,6 +100,7 @@
 #right img {
 	display: block;
 	width: 100%;
+	margin-bottom: 10px;
 }
 
 footer {
@@ -107,4 +108,17 @@ footer {
 	width: 55%;
 	margin: auto;
 	background-color: #cccccc;
+}
+
+.term {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.nobullets {
+	list-style: none;
+}
+
+.indent {
+	margin-left: 40px;
 }
