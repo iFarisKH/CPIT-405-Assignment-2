@@ -5,13 +5,13 @@
 	font-size: 12pt;
 }
 
-.topbanner {
+#topbanner {
 	height: 50px;
 	background-repeat: repeat-x;
 	background-image: url("./res/rancidbannerbg.png");
 }
 
-.topbanner img {
+#topbanner img {
 	margin: auto;
 	display: block;
 	height: 100%;
