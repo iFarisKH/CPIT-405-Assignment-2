@@ -24,4 +24,87 @@
 	text-align: center;
 	font-family: Georgia, "Times New Roman", serif;
 	text-shadow: 3px 3px #999999;
+	margin: 5px;
+}
+
+.container {
+	margin: auto;
+	width: 55%;
+	height: 1115px;
+	box-shadow: 5px 5px 5px #eeeeee;
+}
+
+#left {
+	background: url("./res/rottenlargebg.png");
+	background-repeat: repeat-x;
+	float: left;
+	width: 65%;
+	height: 83px;
+}
+
+#left > img {
+	float: left;
+	height: 100%;
+	width: 35%;
+}
+
+#left > p {
+	color: red;
+	font-weight: bold;
+	font-size: 48pt;
+	transform: translate(20%, 2px);
+	-webkit-transform: translate(20%, 2px);
+	-ms-transform: translate(20%, 2px);
+	-moz-transform: translate(20%, 2px);
+}
+
+.reviews {
+	display: flex;
+	margin-top: 1em;
+	background-color: rgb(238, 240, 236);
+	height: 1025px;
+	width: 100%;
+	flex-direction: column;
+}
+
+.box {
+	float: none;
+	width: 90%;
+	background-color: #fff;
+	border: 2px solid #cccccc;
+	border-radius: 12px;
+	padding: 1em;
+	height: fit-content;
+	word-wrap: break-word;
+}
+
+.icon {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+}
+
+.quote {
+	font-size: 13pt;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#right {
+	float: right;
+	width: 34.75%;
+	height: 100%;
+	background-image: url("./res/bg.png");
+}
+
+#right img {
+	display: block;
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+	width: 55%;
+	margin: auto;
+	background-color: #cccccc;
 }
